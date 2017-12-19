@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="list_item_height">155dp</dimen>
+    <integer name="shadow_dimen">2</integer>
+</resources>

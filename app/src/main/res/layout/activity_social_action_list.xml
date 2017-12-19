@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/recycler.layout">
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/rv_actions"
+        style="@style/recycler"/>
+
+    <include layout="@layout/progress_bar" />
+
+</RelativeLayout>
