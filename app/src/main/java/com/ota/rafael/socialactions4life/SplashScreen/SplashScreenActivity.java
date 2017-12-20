@@ -26,7 +26,7 @@ public class SplashScreenActivity extends AppCompatActivity {
             }
         };
         timer.start();
-
+//testing
     }
 
     protected void openMain(){
