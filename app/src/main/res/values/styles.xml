@@ -39,4 +39,51 @@
         <item name="android:textSize">16sp</item>
     </style>
 
+    <style name="splashscreen" parent="match_parent">
+        <item name="android:background">@color/almostBlack</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+
+    <style name="image_wrap_center" parent="wrap_content">
+        <item name="android:layout_centerInParent">true</item>
+    </style>
+
+    <style name="progressbar" parent="splashscreen">
+        <item name="android:gravity">center</item>
+        <item name="android:visibility">gone</item>
+    </style>
+
+    <style name="list_item_text" parent="wrap_content">
+        <item name="android:paddingLeft">10dp</item>
+        <item name="android:paddingRight">10dp</item>
+        <item name="android:paddingTop">5dp</item>
+        <item name="android:paddingBottom">5dp</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="list_item_text.single_line" parent="list_item_text">
+        <item name="android:maxLines">1</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:ellipsize">end</item>
+    </style>
+
+    <style name="detail.clickable" parent="wrap_content">
+        <item name="android:padding">16dp</item>
+        <item name="android:textColor">@color/holo_blue</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textAllCaps">true</item>
+    </style>
+
+    <style name="detail_text" parent="just_width">
+        <item name="android:paddingLeft">16dp</item>
+        <item name="android:paddingRight">16dp</item>
+        <item name="android:paddingTop">15dp</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="just_width">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
 </resources>

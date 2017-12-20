@@ -8,39 +8,26 @@
 
     <ImageView
         android:id="@+id/iv_background"
-        android:layout_height="match_parent"
-        android:layout_width="match_parent"
+        style="@style/match_parent"
         android:scaleType="centerCrop"
         tools:src="@mipmap/ic_launcher"/>
 
     <View
-        android:layout_height="match_parent"
-        android:layout_width="match_parent"
+        style="@style/match_parent"
         android:background="@color/trasparentBlack" />
 
     <TextView
         android:id="@+id/iv_heading"
-        android:layout_height="wrap_content"
-        android:layout_width="wrap_content"
+        style="@style/list_item_text"
         android:layout_centerInParent="true"
-        android:paddingVertical="5dp"
-        android:paddingHorizontal="10dp"
-        android:textColor="@color/white"
         android:textSize="27sp"
         tools:text="HEADING"/>
 
     <TextView
         android:id="@+id/iv_description"
-        android:layout_height="wrap_content"
-        android:layout_width="wrap_content"
+        style="@style/list_item_text.single_line"
         android:layout_below="@id/iv_heading"
-        android:paddingHorizontal="10dp"
-        android:paddingVertical="5dp"
-        android:textColor="@color/white"
         android:textSize="15sp"
-        android:maxLines="1"
-        android:singleLine="true"
-        android:ellipsize="end"
         tools:text="DESCRIPTION"/>
 
 </RelativeLayout>
